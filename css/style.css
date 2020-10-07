@@ -40,6 +40,8 @@ aside {
     justify-content: space-between;
 }
 
+
+
 aside .logo .desktop {
     width: 150px;
 }
@@ -243,6 +245,10 @@ footer .box-right .playmusic-end ul li a {
     padding: 0 20px;
 }
 
+footer .main-box .box-left .left img {
+    margin-left: 10px;
+}
+
 
 /* fine footer */
 
@@ -252,7 +258,7 @@ footer .box-right .playmusic-end ul li a {
   ##Screen = B/w 320px to 479px
 */
 
-@media (min-width: 320px) and (max-width: 768px) {
+@media (min-width: 320px) and (max-width: 767px) {
     aside {
         width: 72px;
     }
@@ -311,4 +317,42 @@ footer .box-right .playmusic-end ul li a {
     footer .main-box .box-left .left img {
         width: 30px;
     }
+}
+
+/*
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+
+    aside .bottom {
+        padding-bottom: 80px;
+    }
+
+    main .container {
+        max-width: 95%;
+    }
+
+    main .container-top {
+        display: none;
+    }
+
+    main .burger-menu {
+        display: block;
+        color: white;
+        font-size: 30px;
+        margin-bottom: 30px;
+    }
+
+    main .container .container-bottom .music-card-box .music-card img {
+        width: 120px;
+        height: 120px;
+        border-radius: 50%;
+    }
+
+    footer .main-box {
+        justify-content: space-around;
+    }
+
 }
