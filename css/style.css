@@ -35,12 +35,15 @@ aside {
     background: linear-gradient(190deg, rgba(0, 0, 0, 1) 0%, rgba(34, 34, 34, 1) 51%);
     color: white;
     font-weight: 300;
+    position: fixed;
+}
+
+aside .container {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    height: calc(100% - 80px);
 }
-
-
 
 aside .logo .desktop {
     width: 150px;
@@ -135,7 +138,8 @@ main {
     background: rgb(147, 145, 40);
     background: linear-gradient(163deg, rgba(147, 145, 40, 1) 0%, rgba(34, 34, 34, 1) 82%);
     height: 100vh;
-    width: calc(100% - 250px);
+    width: 100%;
+    margin-left: 250px;
 }
 
 main .container {
@@ -293,7 +297,7 @@ footer .main-box .box-left .left img {
         visibility: initial;
     }
     main {
-        width: calc(100% - 72px);
+        margin-left: 72px;
     }
     main .burger-menu {
         display: block;
@@ -322,15 +326,14 @@ footer .main-box .box-left .left img {
         width: 30px;
         margin-right: 10px;
     }
-
     footer .box-center .playmusic ul li a {
         padding: 0 10px;
     }
-
     footer .box-left .right {
         align-items: unset;
     }
 }
+
 
 /*
   ##Device = Tablets, Ipads (portrait)
@@ -338,34 +341,27 @@ footer .main-box .box-left .left img {
 */
 
 @media (min-width: 768px) and (max-width: 1024px) {
-
     aside .bottom {
         padding-bottom: 80px;
     }
-
     main .container {
         max-width: 95%;
     }
-
     main .container-top {
         display: none;
     }
-
     main .burger-menu {
         display: block;
         color: white;
         font-size: 30px;
         margin-bottom: 30px;
     }
-
     main .container .container-bottom .music-card-box .music-card img {
         width: 120px;
         height: 120px;
         border-radius: 50%;
     }
-
     footer .main-box {
         justify-content: space-around;
     }
-
 }
