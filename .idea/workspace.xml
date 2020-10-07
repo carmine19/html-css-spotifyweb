@@ -19,8 +19,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="30200418-eb73-4ec4-89eb-ec09afd46258" name="Default Changelist" comment="fix aside">
+    <list default="true" id="30200418-eb73-4ec4-89eb-ec09afd46258" name="Default Changelist" comment="aggiunte immagini diverse">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/logo-mobile.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -55,7 +57,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1602085785041</updated>
-      <workItem from="1602085792812" duration="3423000" />
+      <workItem from="1602085792812" duration="4258000" />
     </task>
     <task id="LOCAL-00001" summary="ulteriori fix">
       <created>1602086285733</created>
@@ -78,7 +80,21 @@
       <option name="project" value="LOCAL" />
       <updated>1602098723341</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="aggiunte immagini diverse">
+      <created>1602100836394</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1602100836395</updated>
+    </task>
+    <task id="LOCAL-00005" summary="aggiunte immagini diverse">
+      <created>1602100934357</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1602100934357</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -99,12 +115,13 @@
     <MESSAGE value="ulteriori fix" />
     <MESSAGE value="fix card-music-box" />
     <MESSAGE value="fix aside" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix aside" />
+    <MESSAGE value="aggiunte immagini diverse" />
+    <option name="LAST_COMMIT_MESSAGE" value="aggiunte immagini diverse" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1602098731506">
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1602100945818">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1602098731506" />
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1602100945818" />
   </component>
 </project>

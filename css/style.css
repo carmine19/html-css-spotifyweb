@@ -172,6 +172,8 @@ main .container .container-top .box-menu ul li a {
 main .container .container-bottom {
     overflow: auto;
     height: 100vh;
+    position: fixed;
+    padding-bottom: 100px
 }
 
 main .container .container-bottom .box-item {
@@ -270,7 +272,7 @@ footer .main-box .box-left .left img {
   ##Screen = B/w 320px to 479px
 */
 
-@media (min-width: 320px) and (max-width: 767px) {
+@media (min-width: 200px) and (max-width: 767px) {
     aside {
         width: 72px;
     }
