@@ -1,0 +1,314 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+#main-wrap {
+    display: flex;
+}
+
+ul,
+ol {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+
+/* Aside */
+
+aside {
+    height: 100vh;
+    width: 250px;
+    z-index: 1;
+    padding: 20px;
+    overflow: hidden;
+    background: rgb(0, 0, 0);
+    background: linear-gradient(190deg, rgba(0, 0, 0, 1) 0%, rgba(34, 34, 34, 1) 51%);
+    color: white;
+    font-weight: 300;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+aside .logo .desktop {
+    width: 150px;
+}
+
+aside .logo .mobile {
+    display: none;
+}
+
+aside .top .menu-top .menut-box {
+    padding: 30px 0;
+}
+
+aside .top .menu-top .menut-box ul li {
+    padding: 10px 0;
+}
+
+aside .top .menu-top .menut-box ul li:first-child:before {
+    font-family: "Font Awesome 5 Free";
+    content: "\e065";
+    font-size: 20px;
+    margin-right: 10px;
+    color: white;
+    font-weight: 900;
+}
+
+aside .top .menu-top .menut-box ul li:nth-child(2):before {
+    font-family: "Font Awesome 5 Free";
+    content: "\f002";
+    font-size: 20px;
+    margin-right: 10px;
+    color: white;
+    font-weight: 900;
+}
+
+aside .top .menu-top .menut-box ul li:last-child:before {
+    font-family: "Font Awesome 5 Free";
+    content: "\f5c3";
+    font-size: 20px;
+    margin-right: 10px;
+    color: white;
+    font-weight: 900;
+}
+
+aside .top .menu-bottom .menub-box .text-top {
+    padding: 10px 0;
+}
+
+aside .top .menu-bottom .menub-box .text-top p:first-child {
+    text-transform: uppercase;
+    line-height: 20px;
+}
+
+aside .top .menu-bottom .menub-box .text-bot p:first-child {
+    text-transform: uppercase;
+    line-height: 20px;
+}
+
+aside .bottom .box-top .box-text p {
+    padding-bottom: 10px;
+    border-bottom: 1px solid grey;
+}
+
+aside .bottom .box-top .box-text p:before {
+    font-family: "Font Awesome 5 Free";
+    content: "\f0ab";
+    margin-right: 10px;
+    color: white;
+    font-weight: 900;
+}
+
+aside .bottom .box-bottom .box-user p {
+    padding-top: 10px;
+}
+
+aside .bottom .box-bottom .box-user p:before {
+    font-family: "Font Awesome 5 Free";
+    content: "\f007";
+    margin-right: 10px;
+    font-size: 30px;
+    color: white;
+    font-weight: 900;
+}
+
+
+/* fine Aside */
+
+
+/* main */
+
+main {
+    background: rgb(147, 145, 40);
+    background: linear-gradient(163deg, rgba(147, 145, 40, 1) 0%, rgba(34, 34, 34, 1) 82%);
+    height: 100vh;
+    width: calc(100% - 250px);
+}
+
+main .container {
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+main .burger-menu {
+    display: none;
+}
+
+main .container .container-top .box-menu {
+    text-align: center;
+}
+
+main .container .container-top .box-menu ul li {
+    display: inline-block;
+    padding: 25px 15px;
+    text-transform: uppercase;
+}
+
+main .container .container-top .box-menu ul li a {
+    font-size: 14px;
+}
+
+main .container .container-bottom {
+    overflow: auto;
+    height: 100vh;
+}
+
+main .container .container-bottom .box-item {
+    margin: 20px auto;
+    overflow: auto;
+}
+
+main .container .container-bottom .box-item .title h2 {
+    color: white;
+    font-size: 34px;
+}
+
+main .container .container-bottom .music-card-box {
+    display: flex;
+    flex-flow: row wrap;
+    margin-top: 50px;
+}
+
+main .container .container-bottom .music-card-box .music-card {
+    margin: 0px 30px 20px 0;
+}
+
+main .container .container-bottom .music-card-box .music-card img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+main .container .container-bottom .music-card-box .music-card p {
+    text-align: center;
+    color: white;
+}
+
+
+/* fine main */
+
+footer {
+    background-color: #282828;
+    z-index: 1;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+footer .main-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+}
+
+footer .box-left {
+    color: white;
+    display: flex;
+}
+
+footer .box-left .center {
+    margin: 0px 20px;
+}
+
+footer .box-left .right {
+    display: flex;
+    align-items: center;
+}
+
+footer .box-center .playmusic ul li {
+    display: inline-block;
+}
+
+footer .box-center .playmusic ul li a {
+    padding: 0 20px;
+}
+
+footer .box-right .playmusic-end ul li {
+    display: inline-block;
+}
+
+footer .box-right .playmusic-end ul li a {
+    padding: 0 20px;
+}
+
+
+/* fine footer */
+
+
+/*
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 768px) {
+    aside {
+        width: 72px;
+    }
+    aside .logo .desktop {
+        display: none;
+    }
+    aside .logo .mobile {
+        width: 35px;
+        display: block;
+    }
+    aside .top .menu-top .menut-box ul li a {
+        visibility: hidden;
+    }
+    aside .top .menu-bottom {
+        display: none;
+    }
+    aside .bottom {
+        padding-bottom: 80px;
+    }
+    aside .bottom p {
+        visibility: hidden;
+    }
+    aside .bottom .box-top .box-text p:before {
+        visibility: initial;
+        font-size: 25px;
+    }
+    aside .bottom .box-bottom .box-user p:before {
+        visibility: initial;
+    }
+    main {
+        width: calc(100% - 72px);
+    }
+    main .burger-menu {
+        display: block;
+        color: white;
+        font-size: 30px;
+        margin-bottom: 30px;
+    }
+    main .container-top {
+        display: none;
+    }
+    main .container .container-bottom .music-card-box .music-card img {
+        width: 80px;
+        height: 80px;
+        border-radius: 50%;
+    }
+    footer .main-box {
+        justify-content: space-around;
+    }
+    footer .main-box .box-right {
+        display: none;
+    }
+    footer .main-box .box-left .center {
+        display: none;
+    }
+    footer .main-box .box-left .left img {
+        width: 30px;
+    }
+}
