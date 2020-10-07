@@ -316,6 +316,15 @@ footer .main-box .box-left .left img {
     }
     footer .main-box .box-left .left img {
         width: 30px;
+        margin-right: 10px;
+    }
+
+    footer .box-center .playmusic ul li a {
+        padding: 0 10px;
+    }
+
+    footer .box-left .right {
+        align-items: unset;
     }
 }
 
