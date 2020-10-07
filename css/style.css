@@ -149,6 +149,8 @@ main {
 main .container {
     max-width: 80%;
     margin: 0 auto;
+    display: flex;
+    justify-content: center;
 }
 
 main .burger-menu {
@@ -173,11 +175,12 @@ main .container .container-bottom {
     overflow: auto;
     height: 100vh;
     position: fixed;
-    padding-bottom: 100px
+    padding: 100px 0;
 }
 
 main .container .container-bottom .box-item {
     margin: 20px auto;
+    padding: 50px;
     overflow: auto;
 }
 
@@ -190,10 +193,6 @@ main .container .container-bottom .music-card-box {
     display: flex;
     flex-flow: row wrap;
     margin-top: 50px;
-}
-
-main .container .container-bottom .music-card-box:last-child {
-    padding-bottom: 100px;
 }
 
 main .container .container-bottom .music-card-box .music-card {
@@ -302,6 +301,13 @@ footer .main-box .box-left .left img {
     main {
         margin-left: 72px;
     }
+    main .container .container-bottom .box-item {
+        padding: unset;
+        padding-left: 50px;
+    }
+    main .container .container-bottom {
+        padding: unset;
+    }
     main .burger-menu {
         display: block;
         color: white;
@@ -347,6 +353,9 @@ footer .main-box .box-left .left img {
     main .container {
         max-width: 95%;
     }
+    main .container .container-bottom {
+        padding: unset;
+    }
     main .container-top {
         display: none;
     }
@@ -360,6 +369,10 @@ footer .main-box .box-left .left img {
         width: 120px;
         height: 120px;
         border-radius: 50%;
+    }
+    main .container .container-bottom .box-item {
+        padding: unset;
+        padding-left: 50px;
     }
     footer .main-box {
         justify-content: space-around;
